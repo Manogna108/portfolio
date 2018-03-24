@@ -43,9 +43,9 @@ template {
   display: none;
 }
 a {
-  background-color:transparent;
-  .right{
-    text-align: right;
+  background-color:Transparent;
+  .right: {
+    text-align: center;
     float: right;
 }
 }
@@ -1217,9 +1217,10 @@ font-family: inherit;
 h5,
 .h5{
 font-family:  monospace;
-  font-weight: 500 ;
+  font-weight: 200 ;
   line-height: 1.1;
   color: inherit;
+  text-align: right;
 }
 h6,
 .h1,
@@ -1292,11 +1293,15 @@ h6,
 .h6 {
   margin-top: 10px;
   margin-bottom: 10px;
+  text-align: left;
 }
 h4 small,
 .h4 small,
 h5 small,
 .h5 small,
+.h5 .small{
+  text-align: center;
+}
 h6 small,
 .h6 small,
 h4 .small,
@@ -1325,7 +1330,8 @@ h4,
 }
 h5,
 .h5 {
-  font-size: 16px;
+  font-size: 15px;
+  
 }
 h6,
 .h6 {
