@@ -1097,7 +1097,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color:white;
-  background:linear-gradient(lightblue,#eee9d5 );
+  background:linear-gradient(white, grey );
 }
 input,
 button,
@@ -1108,10 +1108,11 @@ textarea {
   line-height: inherit;
 }
 a {
-  color:red;
+  color:blue;
   text-decoration: none;
   font-size:15px;
 }
+
 a:hover,
 a:focus {
   color: #23527c;
@@ -1191,7 +1192,7 @@ h1,
    font-style: italic;
   font-weight: 1000;
   line-height: 1.1;
-  color: white;
+  color: whit;
   text-align: left;
 }
 h2,
@@ -1270,8 +1271,8 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 h1 small,
 .h1 small,
@@ -1634,6 +1635,12 @@ pre code {
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
+}
+.container1 {
+  padding-right: 100px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .container {
   padding-right: 15px;
@@ -5020,10 +5027,10 @@ a.badge:focus {
 }
 .jumbotron {
   padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-bottom: 75px;
+  margin-bottom: px;
   color:white;
-  background-color:beige;
+  background-color:#a0dcdc;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -5039,8 +5046,8 @@ a.badge:focus {
 }
 .container .jumbotron,
 .container-fluid .jumbotron {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
   border-radius: 6px;
 }
 .jumbotron .container {
@@ -5049,16 +5056,16 @@ a.badge:focus {
 @media screen and (min-width: 768px) {
   .jumbotron {
     padding-top: 48px;
-    padding-bottom: 48px;
+    padding-bottom: 152px;
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
     padding-right: 60px;
-    padding-left: 60px;
+    padding-left: 6px;
   }
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 63px;
+    font-size: 45px;
   }
 }
 .thumbnail {
@@ -6829,5 +6836,6 @@ button.close {
 #right {
   float:right;
 }
+
 
 /*# sourceMappingURL=bootstrap.css.map */
