@@ -5030,14 +5030,7 @@ a.badge:focus {
   color:white;
   background-color:#a0dcdc;  
 }
-.myfooter {
-    
-    padding-top: 17px;
-    padding-bottom: 45px;
-    padding-right: 25px;
-    color: white;
-    background-color: #cccdcd;
-}
+
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
