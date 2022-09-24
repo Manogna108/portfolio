@@ -5031,6 +5031,13 @@ a.badge:focus {
   color:white;
   background-color:#a0dcdc;  
 }
+.jumbotron2 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right:25px;
+  color:white;
+  background-color:#a0dcdc;  
+}
 
 .jumbotron h1,
 .jumbotron .h1 {
